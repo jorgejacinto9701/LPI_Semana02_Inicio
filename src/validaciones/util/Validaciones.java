@@ -18,14 +18,10 @@ public class Validaciones {
 	
 	public static final String PRECIO_DOS_DIGITOS_DECIMALES = "\\d+[.]\\d{2}";
 	
-	//Validaciones de simulacro
-	//3 a 30 caracteres
+
 	public static final String NOMBRE = "[a-zA-ZáéíóúñüÁÉÍÓÚÑÜ\\s]{3,30}";
-	//2 dígitos
 	public static final String EDAD = "\\d{2}";
-	//F y M 
 	public static final String SEXO = "[FM]";
-	//8 dígitos , empiece en 7
 	public static final String DNI_EMPIEZA_SIETE = "[7][0-9]{7}";
 	
 }
